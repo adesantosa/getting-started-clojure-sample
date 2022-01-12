@@ -1,4 +1,4 @@
-(ns getting-started-clojure-sample.collections)
+(ns getting-started-clojure-sample.alura.intro.collections)
 
 (def price [10 20 30])
 

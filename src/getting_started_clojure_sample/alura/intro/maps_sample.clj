@@ -1,4 +1,4 @@
-(ns getting-started-clojure-sample.maps-sample)
+(ns getting-started-clojure-sample.alura.intro.maps-sample)
 
 
 (def family {:wife     {:name "Anne" :age 31}

@@ -1,4 +1,4 @@
-(ns getting-started-clojure-sample.new-world)
+(ns getting-started-clojure-sample.alura.intro.new-world)
 
 (def motivation #(println "Go Clojure!!") )
 

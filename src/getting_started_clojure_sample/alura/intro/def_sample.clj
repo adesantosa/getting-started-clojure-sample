@@ -1,4 +1,4 @@
-(ns getting-started-clojure-sample.def-sample)
+(ns getting-started-clojure-sample.alura.intro.def-sample)
 
 ;;Assign a Function to a Variable
 

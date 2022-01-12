@@ -1,4 +1,4 @@
-(ns getting-started-clojure-sample.defn-sample)
+(ns getting-started-clojure-sample.alura.intro.defn-sample)
 
 (defn bar [a b & [c]]
   (if c
@@ -25,11 +25,11 @@
 
 ;=================================
 
-(def hey {:name :last_name})
+;Destructuring
+
+;In general, you can think of destructuring as instructing Clojure on how to associate names with values in a list, map, set, or vector.
+(def hey {:name "André" :last_name "Santos"})
 
 (defn testing
-  [[key1 key2]]
-  (println "First name" key1)
-  (println "Second name" key2 ))
-
-(println (map testing hey))
+  [[val1 val2]]
+  (let [hey (assoc hey :address "Antonio Pincinato")] hey))
