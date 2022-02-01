@@ -52,10 +52,12 @@
 (defn better-symmetrize-body-parts
   "Expects a seq of maps that have a :name and :size"
   [asym-body-parts]
-  (reduce (fn [final-body-parts part]
+  (my-reduce (fn [final-body-parts part]
             (into final-body-parts (set [part (matching-part part)])))
           []
           asym-body-parts))
+
+(my-reduce + 1 [1 2 3])
 
 (println (better-symmetrize-body-parts asym-hobbit-body-parts))
 
